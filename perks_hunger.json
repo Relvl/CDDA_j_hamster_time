@@ -1,0 +1,66 @@
+[
+    {
+        "type": "mutation",
+        "id": "J_LESS_HUNGER",
+        "name": {
+            "str": "[Hamster!] 33% Less Hunger"
+        },
+        "description": "Your metabolism is a little slower, and you require 33% less food than most.",
+        "starting_trait": true,
+        "cancels": [
+            "MET_RAT",
+            "HUNGER",
+            "HUNGER2",
+            "HUNGER3",
+            "J_VERY_LESS_HUNGER",
+            "J_NO_HUNGER"
+        ],
+        "types": [
+            "METABOLISM"
+        ],
+        "category": [
+            "TROGLOBITE",
+            "GASTROPOD"
+        ],
+        "points": 1,
+        "metabolism_modifier": -0.333
+    },
+    {
+        "type": "mutation",
+        "id": "J_VERY_LESS_HUNGER",
+        "name": {
+            "str": "[Hamster!] 66% Less Hunger"
+        },
+        "cancels": [
+            "MET_RAT",
+            "HUNGER",
+            "HUNGER2",
+            "HUNGER3",
+            "J_LESS_HUNGER",
+            "J_NO_HUNGER"
+        ],
+        "description": "Your metabolism is slower, and you require 66% less food than most.",
+        "copy-from": "J_LESS_HUNGER",
+        "points": 5,
+        "metabolism_modifier": -0.666
+    },
+    {
+        "type": "mutation",
+        "id": "J_NO_HUNGER",
+        "name": {
+            "str": "[Hamster!] 90% Less Hunger"
+        },
+        "cancels": [
+            "MET_RAT",
+            "HUNGER",
+            "HUNGER2",
+            "HUNGER3",
+            "J_LESS_HUNGER",
+            "J_VERY_LESS_HUNGER"
+        ],
+        "description": "Your metabolism is stopped, and you require almost no food.",
+        "copy-from": "J_LESS_HUNGER",
+        "points": 15,
+        "metabolism_modifier": -0.9
+    }
+]

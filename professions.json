@@ -1,0 +1,24 @@
+[
+    {
+        "type": "profession",
+        "id": "j_hamster_low",
+        "name": "Hamster!",
+        "description": "You've spent most of your life collecting junk and dealing with weird doctors.",
+        "points": 5,
+        "skills": [
+            { "level": 4, "name": "survival" },
+            { "level": 4, "name": "firstaid" }
+        ],
+        "proficiencies": [
+            "prof_lockpicking",
+            "prof_wound_care"
+        ],
+        "items": {
+            "both": {
+                "items": [
+                    "j_pocket_tardis_wearable"
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "type": "scenario",
+        "copy-from": "wilderness",
+        "id": "j_hanster_wilderness",
+        "name": "[Hamster!] Wilderness",
+        "description": "Some looters robbed you, leaving you literally naked. It's a good thing they didn't pay attention to the toy phone booth...\nIt seems it's time to start all over again.",
+        "professions": [
+            "j_hamster_low"
+        ]
+    }
+]

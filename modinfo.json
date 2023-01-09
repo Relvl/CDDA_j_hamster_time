@@ -1,0 +1,15 @@
+[
+    {
+        "type": "MOD_INFO",
+        "id": "j_hamster_time",
+        "name": "<color_cyan>Hamster time!</color>",
+        "authors": [
+            "Johnson1893"
+        ],
+        "description": "Some cheaty and magic things! The BIG bag, less hunger and thirst perks, and who knows what else...",
+        "category": "rebalance",
+        "dependencies": [
+            "dda"
+        ]
+    }
+]

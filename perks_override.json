@@ -1,0 +1,72 @@
+[
+    {
+        "type": "mutation",
+        "id": "THIRST",
+        "copy-from": "THIRST",
+        "cancels": [
+            "J_LESS_THIRST",
+            "J_VERY_LESS_THIRST",
+            "J_NO_THIRST"
+        ]
+    },
+    {
+        "type": "mutation",
+        "id": "THIRST2",
+        "copy-from": "THIRST2",
+        "cancels": [
+            "J_LESS_THIRST",
+            "J_VERY_LESS_THIRST",
+            "J_NO_THIRST"
+        ]
+    },
+    {
+        "type": "mutation",
+        "id": "THIRST3",
+        "copy-from": "THIRST3",
+        "cancels": [
+            "J_LESS_THIRST",
+            "J_VERY_LESS_THIRST",
+            "J_NO_THIRST"
+        ]
+    },
+    {
+        "type": "mutation",
+        "id": "MET_RAT",
+        "copy-from": "MET_RAT",
+        "cancels": [
+            "J_LESS_HUNGER",
+            "J_VERY_LESS_HUNGER",
+            "J_NO_HUNGER"
+        ]
+    },
+    {
+        "type": "mutation",
+        "id": "HUNGER",
+        "copy-from": "HUNGER",
+        "cancels": [
+            "J_LESS_HUNGER",
+            "J_VERY_LESS_HUNGER",
+            "J_NO_HUNGER"
+        ]
+    },
+    {
+        "type": "mutation",
+        "id": "HUNGER2",
+        "copy-from": "HUNGER2",
+        "cancels": [
+            "J_LESS_HUNGER",
+            "J_VERY_LESS_HUNGER",
+            "J_NO_HUNGER"
+        ]
+    },
+    {
+        "type": "mutation",
+        "id": "HUNGER3",
+        "copy-from": "HUNGER3",
+        "cancels": [
+            "J_LESS_HUNGER",
+            "J_VERY_LESS_HUNGER",
+            "J_NO_HUNGER"
+        ]
+    }
+]

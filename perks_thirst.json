@@ -1,0 +1,48 @@
+[
+    {
+        "type": "mutation",
+        "id": "J_LESS_THIRST",
+        "name": {
+            "str": "[Hamster!] 33% Less Thirst"
+        },
+        "description": "Your metabolism is a little slower, and you require 33% less drink than most.",
+        "starting_trait": true,
+        "cancels": [
+            "THIRST",
+            "THIRST2",
+            "THIRST3"
+        ],
+        "types": [
+            "THIRST"
+        ],
+        "category": [
+            "FISH",
+            "TROGLOBITE",
+            "GASTROPOD"
+        ],
+        "points": 1,
+        "thirst_modifier": -0.333
+    },
+    {
+        "type": "mutation",
+        "id": "J_VERY_LESS_THIRST",
+        "name": {
+            "str": "[Hamster!] 66% Less Thirst"
+        },
+        "description": "Your metabolism is slower, and you require 66% less drink than most.",
+        "copy-from": "J_LESS_THIRST",
+        "points": 5,
+        "thirst_modifier": -0.666
+    },
+    {
+        "type": "mutation",
+        "id": "J_NO_THIRST",
+        "name": {
+            "str": "[Hamster!] 90% Less Thirst"
+        },
+        "description": "Your metabolism is stopped, and you require almost no drink.",
+        "copy-from": "J_LESS_THIRST",
+        "points": 15,
+        "thirst_modifier": -0.9
+    }
+]
