@@ -31,7 +31,7 @@
         },
         "description": "Your metabolism is slower, and you require 66% less drink than most.",
         "copy-from": "J_LESS_THIRST",
-        "points": 5,
+        "points": 2,
         "thirst_modifier": -0.666
     },
     {
@@ -42,7 +42,7 @@
         },
         "description": "Your metabolism is stopped, and you require almost no drink.",
         "copy-from": "J_LESS_THIRST",
-        "points": 15,
+        "points": 3,
         "thirst_modifier": -0.9
     }
 ]

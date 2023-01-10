@@ -41,7 +41,7 @@
         ],
         "description": "Your metabolism is slower, and you require 66% less food than most.",
         "copy-from": "J_LESS_HUNGER",
-        "points": 5,
+        "points": 2,
         "metabolism_modifier": -0.666
     },
     {
@@ -60,7 +60,7 @@
         ],
         "description": "Your metabolism is stopped, and you require almost no food.",
         "copy-from": "J_LESS_HUNGER",
-        "points": 15,
+        "points": 3,
         "metabolism_modifier": -0.9
     }
 ]
