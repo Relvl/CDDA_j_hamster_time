@@ -29,7 +29,8 @@
                 "volume_multiplier": 0.1,
                 "rigid": true
             }
-        ]
+        ],
+        "insulation": 100
     },
     {
         "type": "ARMOR",
@@ -71,6 +72,7 @@
                 "rigid": true
             }
         ],
+        "insulation": 100,
         "warmth": 5,
         "material_thickness": 2,
         "armor": [
