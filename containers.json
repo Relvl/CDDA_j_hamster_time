@@ -4,7 +4,8 @@
         "id": "j_pocket_tardis",
         "category": "container",
         "name": {
-            "str": "pocket Tardis"
+            "str": "pocket Tardis",
+            "str_pl": "pocket Tardises"
         },
         "description": "A telephone booth that uses gravity magic to store tons of things and preserve food.",
         "weight": "2 kg",
@@ -37,7 +38,8 @@
         "id": "j_pocket_tardis_wearable",
         "category": "container",
         "name": {
-            "str": "wearable Tardis"
+            "str": "wearable Tardis",
+            "str_pl": "wearable Tardises"
         },
         "description": "A telephone booth that uses gravity magic to store tons of things and preserve food. Wearable now!",
         "weight": "2 kg",

@@ -1,0 +1,51 @@
+[
+    {
+        "type": "furniture",
+        "id": "f_tardis_shelf",
+        "looks_like": "f_rack",
+        "name": "Tardis shelf",
+        "description": "A huge, sturdy steel shelf made from Tardis for storing pallets of crates in warehouses. Very capacious.",
+        "symbol": "T",
+        "color": "light_green",
+        "move_cost_mod": -1,
+        "coverage": 95,
+        "required_str": 10,
+        "flags": [
+            "FLAMMABLE_HARD",
+            "PLACE_ITEM",
+            "BLOCKSDOOR",
+            "SMALL_HIDE",
+            "EASY_DECONSTRUCT"
+        ],
+        "max_volume": "35000 L",
+        "deconstruct": {
+            "items": [
+                { "item": "pipe", "count": [ 6, 12 ] },
+                { "item": "sheet_metal", "count": [ 4, 8 ] },
+                { "item": "sheet_metal_small", "count": [ 0, 4 ] },
+                { "item": "j_pocket_tardis_wearable", "count": 2 }
+            ]
+        },
+        "bash": {
+            "str_min": 8,
+            "str_max": 30,
+            "sound": "metal screeching!",
+            "sound_fail": "clang!",
+            "items": [
+                { "item": "scrap", "count": [ 3, 12 ] },
+                { "item": "steel_chunk", "count": [ 3, 6 ] },
+                { "item": "sheet_metal_small", "count": [ 6, 10 ] },
+                { "item": "pipe", "count": 4 },
+                { "item": "plastic_chunk", "count": [25, 50] },
+                { "item": "power_supply", "count": [0, 1] },
+                { "item": "scrap", "count": [1, 5] },
+                { "item": "cable", "count": [0, 10] },
+                { "item": "e_scrap", "count": [0, 10] },
+                { "item": "scrap_aluminum", "count": [1, 5] },
+                { "item": "glass_shard", "count": [150, 352] },
+                { "item": "nail", "count": 20 },
+                { "item": "sheet_metal_small", "count": [3, 6] }
+            ]
+        }
+    }
+]
